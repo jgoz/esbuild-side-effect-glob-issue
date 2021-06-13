@@ -1,10 +1,11 @@
 {
-  "name": "esbuild-sideeffects",
+  "name": "my-webpack-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "My webpack project",
   "main": "index.js",
   "scripts": {
-    "test": "esbuild app.js --bundle --outdir=out"
+    "test": "esbuild app.js --bundle --outdir=out",
+    "webpack": "webpack --mode=production"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,10 @@
     "packages/*"
   ],
   "devDependencies": {
-    "esbuild": "^0.12.8"
+    "css-loader": "^5.2.6",
+    "esbuild": "^0.12.8",
+    "mini-css-extract-plugin": "^1.6.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
   }
 }
