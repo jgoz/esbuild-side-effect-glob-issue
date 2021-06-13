@@ -9,7 +9,7 @@
     console.log("b");
   }
 
-  // index.js
+  // app.js
   a();
   b();
 })();

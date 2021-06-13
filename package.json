@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "esbuild index.js --bundle --outdir=out"
+    "test": "esbuild app.js --bundle --outdir=out"
   },
   "author": "",
   "license": "ISC",
