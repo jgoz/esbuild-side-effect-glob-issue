@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-sideeffects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "esbuild index.js --bundle --outdir=out"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.12.8"
+  }
+}
